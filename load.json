@@ -1,0 +1,410 @@
+{
+  "voters": {
+    "JjA": {
+      "user": {
+        "firstName": "KL",
+        "lastName": "jrl",
+        "login": "JjA",
+        "pass": "llllllll",
+        "street": "lll",
+        "house": "D",
+        "removed": false
+      },
+      "selfProposals": [],
+      "voice": true
+    },
+    "k3": {
+      "user": {
+        "firstName": "KL",
+        "lastName": "jrl",
+        "login": "k3",
+        "pass": "llllllll",
+        "street": "lll",
+        "house": "D",
+        "removed": false
+      },
+      "selfProposals": [
+        {
+          "text": "a good proposal",
+          "author": "k3",
+          "averageRating": 5.0,
+          "id": 1
+        },
+        {
+          "text": "a good proposal",
+          "author": "k3",
+          "averageRating": 5.0,
+          "id": 2
+        },
+        {
+          "text": "a good proposal 2",
+          "author": "k3",
+          "averageRating": 5.0,
+          "id": 3
+        },
+        {
+          "text": "a good proposal 3",
+          "author": "k3",
+          "averageRating": 5.0,
+          "id": 4
+        },
+        {
+          "text": "a good proposal 4",
+          "author": "k3",
+          "averageRating": 5.0,
+          "id": 5
+        }
+      ],
+      "voice": true
+    },
+    "J": {
+      "user": {
+        "firstName": "Jrl",
+        "lastName": "Kl",
+        "login": "J",
+        "pass": "llllllll",
+        "street": "lll",
+        "house": "D",
+        "removed": false
+      },
+      "selfProposals": [],
+      "voice": true
+    },
+    "kkk": {
+      "user": {
+        "firstName": "KL",
+        "lastName": "jrl",
+        "login": "kkk",
+        "pass": "llllllll",
+        "street": "lll",
+        "house": "D",
+        "removed": false
+      },
+      "selfProposals": [],
+      "voice": true
+    }
+  },
+  "proposals": {
+    "1": {
+      "text": "a good proposal",
+      "author": "k3",
+      "averageRating": 5.0,
+      "id": 1
+    },
+    "2": {
+      "text": "a good proposal",
+      "author": "k3",
+      "averageRating": 5.0,
+      "id": 2
+    },
+    "3": {
+      "text": "a good proposal 2",
+      "author": "k3",
+      "averageRating": 5.0,
+      "id": 3
+    },
+    "4": {
+      "text": "a good proposal 3",
+      "author": "k3",
+      "averageRating": 5.0,
+      "id": 4
+    },
+    "5": {
+      "text": "a good proposal 4",
+      "author": "k3",
+      "averageRating": 5.0,
+      "id": 5
+    }
+  },
+  "candidates": {},
+  "online": {},
+  "proposalsRating": [
+    [
+      {
+        "text": "a good proposal 4",
+        "author": "k3",
+        "averageRating": 5.0,
+        "id": 5
+      },
+      [
+        [
+          {
+            "user": {
+              "firstName": "KL",
+              "lastName": "jrl",
+              "login": "k3",
+              "pass": "llllllll",
+              "street": "lll",
+              "house": "D",
+              "removed": false
+            },
+            "selfProposals": [
+              {
+                "text": "a good proposal",
+                "author": "k3",
+                "averageRating": 5.0,
+                "id": 1
+              },
+              {
+                "text": "a good proposal",
+                "author": "k3",
+                "averageRating": 5.0,
+                "id": 2
+              },
+              {
+                "text": "a good proposal 2",
+                "author": "k3",
+                "averageRating": 5.0,
+                "id": 3
+              },
+              {
+                "text": "a good proposal 3",
+                "author": "k3",
+                "averageRating": 5.0,
+                "id": 4
+              },
+              {
+                "text": "a good proposal 4",
+                "author": "k3",
+                "averageRating": 5.0,
+                "id": 5
+              }
+            ],
+            "voice": true
+          },
+          5
+        ]
+      ]
+    ],
+    [
+      {
+        "text": "a good proposal",
+        "author": "k3",
+        "averageRating": 5.0,
+        "id": 1
+      },
+      [
+        [
+          {
+            "user": {
+              "firstName": "KL",
+              "lastName": "jrl",
+              "login": "k3",
+              "pass": "llllllll",
+              "street": "lll",
+              "house": "D",
+              "removed": false
+            },
+            "selfProposals": [
+              {
+                "text": "a good proposal",
+                "author": "k3",
+                "averageRating": 5.0,
+                "id": 1
+              },
+              {
+                "text": "a good proposal",
+                "author": "k3",
+                "averageRating": 5.0,
+                "id": 2
+              },
+              {
+                "text": "a good proposal 2",
+                "author": "k3",
+                "averageRating": 5.0,
+                "id": 3
+              },
+              {
+                "text": "a good proposal 3",
+                "author": "k3",
+                "averageRating": 5.0,
+                "id": 4
+              },
+              {
+                "text": "a good proposal 4",
+                "author": "k3",
+                "averageRating": 5.0,
+                "id": 5
+              }
+            ],
+            "voice": true
+          },
+          5
+        ]
+      ]
+    ],
+    [
+      {
+        "text": "a good proposal 2",
+        "author": "k3",
+        "averageRating": 5.0,
+        "id": 3
+      },
+      [
+        [
+          {
+            "user": {
+              "firstName": "KL",
+              "lastName": "jrl",
+              "login": "k3",
+              "pass": "llllllll",
+              "street": "lll",
+              "house": "D",
+              "removed": false
+            },
+            "selfProposals": [
+              {
+                "text": "a good proposal",
+                "author": "k3",
+                "averageRating": 5.0,
+                "id": 1
+              },
+              {
+                "text": "a good proposal",
+                "author": "k3",
+                "averageRating": 5.0,
+                "id": 2
+              },
+              {
+                "text": "a good proposal 2",
+                "author": "k3",
+                "averageRating": 5.0,
+                "id": 3
+              },
+              {
+                "text": "a good proposal 3",
+                "author": "k3",
+                "averageRating": 5.0,
+                "id": 4
+              },
+              {
+                "text": "a good proposal 4",
+                "author": "k3",
+                "averageRating": 5.0,
+                "id": 5
+              }
+            ],
+            "voice": true
+          },
+          5
+        ]
+      ]
+    ],
+    [
+      {
+        "text": "a good proposal",
+        "author": "k3",
+        "averageRating": 5.0,
+        "id": 2
+      },
+      [
+        [
+          {
+            "user": {
+              "firstName": "KL",
+              "lastName": "jrl",
+              "login": "k3",
+              "pass": "llllllll",
+              "street": "lll",
+              "house": "D",
+              "removed": false
+            },
+            "selfProposals": [
+              {
+                "text": "a good proposal",
+                "author": "k3",
+                "averageRating": 5.0,
+                "id": 1
+              },
+              {
+                "text": "a good proposal",
+                "author": "k3",
+                "averageRating": 5.0,
+                "id": 2
+              },
+              {
+                "text": "a good proposal 2",
+                "author": "k3",
+                "averageRating": 5.0,
+                "id": 3
+              },
+              {
+                "text": "a good proposal 3",
+                "author": "k3",
+                "averageRating": 5.0,
+                "id": 4
+              },
+              {
+                "text": "a good proposal 4",
+                "author": "k3",
+                "averageRating": 5.0,
+                "id": 5
+              }
+            ],
+            "voice": true
+          },
+          5
+        ]
+      ]
+    ],
+    [
+      {
+        "text": "a good proposal 3",
+        "author": "k3",
+        "averageRating": 5.0,
+        "id": 4
+      },
+      [
+        [
+          {
+            "user": {
+              "firstName": "KL",
+              "lastName": "jrl",
+              "login": "k3",
+              "pass": "llllllll",
+              "street": "lll",
+              "house": "D",
+              "removed": false
+            },
+            "selfProposals": [
+              {
+                "text": "a good proposal",
+                "author": "k3",
+                "averageRating": 5.0,
+                "id": 1
+              },
+              {
+                "text": "a good proposal",
+                "author": "k3",
+                "averageRating": 5.0,
+                "id": 2
+              },
+              {
+                "text": "a good proposal 2",
+                "author": "k3",
+                "averageRating": 5.0,
+                "id": 3
+              },
+              {
+                "text": "a good proposal 3",
+                "author": "k3",
+                "averageRating": 5.0,
+                "id": 4
+              },
+              {
+                "text": "a good proposal 4",
+                "author": "k3",
+                "averageRating": 5.0,
+                "id": 5
+              }
+            ],
+            "voice": true
+          },
+          5
+        ]
+      ]
+    ]
+  ],
+  "elections": {},
+  "toNoOneCount": 0
+}

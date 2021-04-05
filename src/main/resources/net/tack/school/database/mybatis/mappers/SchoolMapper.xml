@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="net.thumbtack.school.database.mybatis.mappers.SchoolMapper">
+
+    <resultMap id="resultSchool" type="net.thumbtack.school.database.model.School">
+        <id property="id" column="schoolId" />
+        <result property="name" column="schoolName" />
+        <result property="year" column="year" />
+        <collection property="groups" column="id" javaType="java.util.List" ofType="net.thumbtack.school.database.model.Group">
+            <result property="id" column="groupId" />
+            <result property="name" column="groupName" />
+            <result property="room" column="room" />
+            <collection property="subjects" column="id" javaType="java.util.List" ofType="net.thumbtack.school.database.model.Subject">
+                <result property="id" column="subjectId" />
+                <result property="name" column="subjectName" />
+            </collection>
+            <collection property="trainees" column="id" javaType="java.util.List" ofType="net.thumbtack.school.database.model.Trainee">
+
+            </collection>
+        </collection>
+    </resultMap>
+
+    <select id = "getAllUsingJoin" resultMap = "resultSchool">
+        SELECT
+            school.id as schoolId,
+            school.name as schoolName,
+            year,
+            group.id as groupId,
+            group.name as groupName,
+            room,
+            subject.id as subjectId,
+            subject.name as subjectName
+        FROM school
+        JOIN `group` ON schoolId = school.id
+        JOIN subject_group ON groupId = group.id
+        JOIN `subject` ON subjectId = subject.id
+    </select>
+
+</mapper>

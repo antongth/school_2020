@@ -1,0 +1,23 @@
+package net.thumbtack.school.springrest.servises;
+
+import net.thumbtack.school.springrest.model.Recording;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.time.ZonedDateTime;
+
+//@Component
+public class YandexMusicChannel implements PublishingChannel {
+    private static final Logger LOGGER = LoggerFactory.getLogger(YandexMusicChannel.class);
+
+    @Override
+    public void publish(Recording recording, ZonedDateTime publishAvailableDate) {
+        LOGGER.debug("publishing to YandexMusic");
+
+    }
+
+    @Override
+    public void delete(Recording recording) {
+        LOGGER.debug("deleting from YandexMusic");
+    }
+}
